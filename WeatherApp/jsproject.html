@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsproject.css">
+</head>
+<body>
+    <div class="weatherApp">
+        <div class="title">
+            <h1>Weather App</h1>
+            <input id="cityvalue" placeholder="enter a city name" type="text"><br>
+            <button onclick="search()">search</button>
+        </div>
+        <div class="weatherDivContainer">
+            <div class="weatherDiv">
+                <div class="weatherInfo">
+                    <h1 id="cityname">City Name</h1>
+                    <h2 id="countryname">Country Name</h2>
+                    <img height="120" width="130" id="sun" src="weatherforec.jpg" alt="">
+                    <h1 id="temp"><span id="temperatue">0</span><sup>o</sup>c</h1>
+                   
+                </div>
+                <div class="time"></div>
+            </div>
+        </div>
+    </div>
+    <script src="jsproject.js"></script>
+</body>
+</html>

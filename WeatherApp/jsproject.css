@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.weatherApp{
+    background-image: url('StormWow.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 48px;
+    color: rgb(47, 110, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title input{
+    height: 35px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    margin: 10px 0px;
+}
+.title button{
+    background-color: rgb(107, 55, 190);
+    color: white;
+    padding: 10px 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.weatherDiv{
+    width: 25%;
+}
+.weatherInfo{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('beautiful-purple-weather-landscape-of-lake-matheson-7w.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    text-align: center;
+}
+#cityvalue{
+    font-size: 20px;
+}
+.weatherInfo h1,h2{
+    color: white;
+    
+}
+.weatherDivContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#temp{
+    padding: 2dvb 0px;
+    font-size: 70px;
+}
